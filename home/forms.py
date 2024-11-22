@@ -27,3 +27,4 @@ class ProdutoForm(forms.Form):
         decimal_places=2, 
         widget=forms.TextInput(attrs={'class':'form-control', 'placeholder':'Preço','data-mask':'#.##0,00', 'data-mask-reserve': 'true'})
         )
+    

@@ -1,0 +1,78 @@
+body {
+    background-color: #cfcec4c2;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+h1{
+    padding-top: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.header-section, .projects-section, .contact-section {
+    padding: 60px 0;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f0e68c;
+    margin: 10px auto;
+}
+.profile-pic {
+    max-width: 300px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.card-text{
+    color: white;
+}
+.card-title {
+    color: #f0e68c;
+}
+.btn-custom {
+    background-color: #f0e68c;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #d4b54c;
+}
+.contact-info i {
+    margin-right: 10px;
+    color: #f0e68c;
+}
+.btn{
+    color: #f7efa8;
+}
+.lista{
+    text-align: justify;
+}
